@@ -1,0 +1,49 @@
+@charset "windows-1252";  
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover #555*/
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li a.active {
+     background-color: #4CAF50;
+    color: white;
+}
+/*-----------------------------Code for icon bar*/ 
+.icon-bar {
+    width: 90px; /* Set a specific width */
+    background-color: gold; /* Dark-grey background */
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
